@@ -1,0 +1,21 @@
+WARNING:root:this is a warning message
+INFO:root:starting iteration 1
+DEBUG:root:new factorial: 1
+INFO:root:starting iteration 2
+DEBUG:root:new factorial: 2
+INFO:root:starting iteration 3
+DEBUG:root:new factorial: 6
+INFO:root:starting iteration 4
+DEBUG:root:new factorial: 24
+INFO:root:starting iteration 5
+DEBUG:root:new factorial: 120
+INFO:root:starting iteration 6
+DEBUG:root:new factorial: 720
+INFO:root:starting iteration 7
+DEBUG:root:new factorial: 5040
+INFO:root:starting iteration 8
+DEBUG:root:new factorial: 40320
+INFO:root:starting iteration 9
+DEBUG:root:new factorial: 362880
+WARNING:root:Final result: 362880
+CRITICAL:root:Factorial calculation ended
