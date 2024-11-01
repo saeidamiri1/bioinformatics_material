@@ -1,0 +1,1 @@
+This is an initial deployment of a website focused on understanding fundamental bioinformatics concepts. 
