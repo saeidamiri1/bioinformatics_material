@@ -1,5 +1,7 @@
 ---
 date: 2024-09-28
+authors:
+  - saeidamiri1
 title: Cheat sheet for markdown.  
 description: Cheat sheet for markdown.
 categories:
@@ -8,6 +10,8 @@ categories:
 
 # Cheat sheet for markdown (Basics)
 
+This Markdown cheat sheet provides a basic overview of all the Markdown.
+<!-- more -->
 
 - - - -
 ## Heading 1

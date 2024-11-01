@@ -1,5 +1,7 @@
 ---
 date: 2024-10-27
+authors:
+  - saeidamiri1
 description: Container
 categories:
   - linux
@@ -7,6 +9,7 @@ categories:
 
 # Container 
 A container is a lightweight package of an operating system that allows users to install software and its dependencies in isolated environments (called ‘containers’), making it a single, portable, shareable, and reproducible package, like Apptainer/Singularity or Docker. Unlike virtual machines, containers are lightweight, fast, and typically run on a Linux-based system. They are often best suited for running one or two applications.
+<!-- more -->
 
 ## Apptainer/Singularity
 Apptainer/Singularity is a free and open-source container framework designed to run scientific applications on HPC-backed resources or any operating system. Unlike Docker, Singularity allows non-privileged users to work with it, making it more suitable for HPC environments. In this guide, we introduce Apptainer/Singularity and demonstrate how to set up and use Singularity. We refer to it simply as Singularity, as it was formerly known, and many users still call it by that name.
@@ -240,7 +243,7 @@ singularity cache list
 You can remove images from the cache by using the `singularity cache clean` command.
 
 ## Docker 
-Docker is widely used and has a large user community; however, it requires root access, making it less suitable for HPC systems.
+While Docker is widely used and has a large user community, it requires root privileges for many of its functions, which can pose security and compatibility challenges in high-performance computing (HPC) environments. Consequently, HPC systems often prefer alternatives that allow for secure, unprivileged containerization.
 
 ## Useful references
 -[ref]:  https://hsf-training.github.io/hsf-training-singularity-webpage/

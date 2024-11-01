@@ -94,6 +94,8 @@ plugins:
   - mkdocs-jupyter:
         ignore_h1_titles: True
   - blog
+  - blog:
+      blog_dir: drac
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
@@ -176,12 +178,10 @@ nav:
   - Home: index.md
   - Blog:
     - blog/index.md
-    - 2024: 
-      - blog/posts/passwordless_ssh.md
-      - blog/posts/bash_cheat_sheet.md
-      - blog/posts/markdown.md
-      - blog/posts/screen_session.md
-      - blog/posts/container.md
-  - MNI:
-    - mni/mni_index.md
+    - blog/posts/screen_session.md
+    - blog/posts/bash_cheat_sheet.md
+    - blog/posts/markdown.md
+  - DRAC:
+    - drac/index.md
+    - drac/posts/Login_Issues.md
   # - Support:  support.md

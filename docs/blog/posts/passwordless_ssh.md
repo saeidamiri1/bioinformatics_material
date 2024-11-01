@@ -1,14 +1,19 @@
 ---
 date: 2024-10-27
+authors:
+  - saeidamiri1
 description: Passwordless login linux system
 categories:
   - ssh 
   - linux
-  - password less
 ---
 
 # passwordless ssh
+
 We often use SSH (Secure Shell) to remotely connect to servers via the terminal. If you’re tired of entering a password every time you log in, follow the steps below to enable passwordless login.
+
+<!-- more -->
+
 
 ## Add server info to config file
 Open the SSH configuration file on your PC (the SSH client).

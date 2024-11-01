@@ -1,15 +1,19 @@
 ---
 date: 2024-10-27
+authors:
+  - saeidamiri1
 description: bash cheat sheet
 categories:
-  - linux  
+  - linux
 ---
 
-# bash cheat sheet
+# Bash cheat sheet
 Here are the bash scripts you frequently use to accomplish your tasks.
 
+<!-- more -->
+
 ## User Information
-### who
+### `who` command
 It is used to retrieve information about the currently logged-in user on the system.
 ```
 who
@@ -23,13 +27,13 @@ Date & Time of login
 Remote host name of the user
 ```
 
-### whoami
+### `whoami` command
 It displays the system’s username:
 ```
 whoami
 ```
 
-### id
+### `id` command 
 It displays the user identification, including the user ID and group ID:
 
 ```
@@ -37,7 +41,7 @@ id
 ```
 
 ## System information
-To display system and hardware information, you can use `uname` with various options.
+To display system and hardware information, you can use `uname` command with various options.
 
 |command|description|
 |-|-|
@@ -49,19 +53,19 @@ To display system and hardware information, you can use `uname` with various opt
 
 
 ## File and directory commands
-### pwd
+### `pwd` command
 This command displays the current working directory. We often use it with the `-P` flag, which shows the physical directory without any symbolic links:
 
 ```
 pwd -P
 ```
 
-### ls 
+### `ls` command 
 It displays a list of files and directories.
 ```
 ls
 ```
-ou can use it with the following flags:
+or can use it with the following flags:
 
 ```
 -a Show all files
@@ -80,7 +84,7 @@ The following command displays all files, including hidden ones.
 ls -a 
 ```
 
-### mkdir 
+### `mkdir` command 
 `mkdir` creates the directories
 ```
 mkdir ./folder 
@@ -91,7 +95,7 @@ The `-p` flag can be used to create multiple directories at once.
 mkdir -p ./folder/folder2/folder3 
 ```
 
-### rm
+### `rm` command
 It removes directories and files. To remove a file,
 ```
 rm file.txt
@@ -112,7 +116,7 @@ To move files or folders forcefully, use the `-rf` flag.
 rm -rf folder
 ```
 
-### touch 
+### `touch` command 
 It can be used to create, change, and modify timestamps. The following commands create a file and multiple files, respectively:
 ```
 touch file1.txt
@@ -134,10 +138,10 @@ Use the timestamps of other files.
 touch -r file1.txt file2.txt
 ```
 
-### cat
+### `cat` command
 The `cat` command is used to create single or multiple files, view the contents of a file, concatenate files, and redirect output to the terminal or to files.
 
-#### create file
+#### How create file
 By using the following command, you can create a file and add content. Once you’re done, press `Ctrl+D`.
 
 ```
@@ -145,13 +149,13 @@ cat > file1.txt
 You care creating a file
 ```
 
-#### View content
+#### How view content
 View the content 
 ```
 cat  file1.txt file2.txt
 ```
 
-#### Large file
+#### How view content of large file
 If you have a large file that does not fit in the terminal, use `more` and  `less`
 
 ```
@@ -245,7 +249,7 @@ Owner can read, write, execute files  <br />
 Group can read and execute (use) but not change files. <br />
 Other can read and execute (use) but not change.  <br />
 
-#### chown 
+#### `chown` command 
 You can change the user and group.
 ```
 chmod user:group file\folder
@@ -254,7 +258,7 @@ chmod -R user:group file\folder
 
 With the `-R` flag, you can change the ownership of the directory and all its contents recursively.
 
-#### chgrp
+#### `chgrp` command
 It can be used to change the group owner. The `chgrp` and `chown` commands use the same system call and are functionally identical.
 
 ```
@@ -285,7 +289,7 @@ Displays active or listening ports.
 netstat -pnltu
 ```
 
-## Search 
+## `find` command
 You can use find to search for files and directories. The following command searches for `.txt` files:
 ```
 find ./directory -type f -name '*.txt'
@@ -316,7 +320,7 @@ If you want the command to be case-sensitive, use the `-i` flag.
 grep -i "hello" file.txt
 ```
 
-## ps
+## `ps` command
 The `ps` command displays information about a selection of active processes.
 ```
 ps
@@ -328,7 +332,7 @@ kill <process_id>
 ```
 
 
-## Curl Command
+## `curl` Command
 This command can be used to transfer data to or from a server. It supports various protocols, including HTTP, HTTPS, FTP, SFTP, etc. You can easily request an HTML page or a file.
 ```
 curl -o aa.htlm  https://saeidamiri1.github.io/
@@ -376,7 +380,7 @@ curl -C - -O ftp://speedtest.tele2.net/1MB.zip
 ```
 
 
-## History Command 
+## `history` Command 
 The `history` command displays a list of previously issued commands. There are a couple of options that can be used to modify the history.
 ```
 history -c # clears the entire command history.
