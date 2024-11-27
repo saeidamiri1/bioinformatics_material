@@ -14,13 +14,13 @@ To use the Ensembl Variant Effect Predictor (VEP)[https://useast.ensembl.org/inf
 
 ## Step to run VEP in Beluga
 ###  VCF 
-Define the path of the VCF file as below:
+Specify the path of the VCF file as below:
 
 ```
 VCF=./scratch/temp.vcf.gz
 ```
 ###  Output 
-You need to define the path of the output in OUTPUT. If you want to save the output in the same directory as the VCF file, include the following in the job file
+To save the output in the same directory as the VCF file, include the following in the job file. Otherwise, specify the output path in the OUTPUT parameter.
 ```
 OUTPUT=${OUTPUT:-${VCF/.vcf/.annotated_vep.vcf}}
 ```
