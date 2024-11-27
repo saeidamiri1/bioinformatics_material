@@ -169,6 +169,12 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 not_in_nav: |
   /tutorials/**/*.md
@@ -176,10 +182,28 @@ not_in_nav: |
 # Page tree
 nav:
   - Home: index.md
+  - Bioinformatics:
+    - bioinfo/bioinfo_overview.md
+  - Concise statistics:
+    - "Overview": 'stat/stat_overview.md'
+    - "<em>Linear Regression:</em>":                      
+        - " &nbsp;  Overview":        'stat/linear_regression/overview.md'
+        - " &nbsp;  -- Simple Linear regression":        'stat/linear_regression/slr.md'
+        - " &nbsp;  -- Multiple Linear regression":        'stat/linear_regression/mlr.md'
+        - " &nbsp;  -- Non-Linear regression":        'stat/linear_regression/nlr.md'
+        - " &nbsp;  -- Other analysis":        'stat/linear_regression/others.md'
+    - "<em>Logistic Regression:</em>":                      
+        - " &nbsp;  Overview":        'stat/logistic_regression/overview.md'
+        - " &nbsp;  -- Introduction":        'stat/logistic_regression/introduction.md'
+        - "&nbsp; -- One covariate":        'stat/logistic_regression/one_covariate.md'
+        - "&nbsp; -- Multiple covariates":        'stat/logistic_regression/multiple_covariate.md'
+        - "&nbsp; -- ANCOVA":        'stat/logistic_regression/ancova.md'
   - Blog:
     - blog/index.md
+    - blog/posts/bash_cheat_sheet_i.md
+    - blog/posts/bash_cheat_sheet_ii.md
+    - blog/posts/bash_cheat_sheet_iii.md    
     - blog/posts/screen_session.md
-    - blog/posts/bash_cheat_sheet.md
     - blog/posts/markdown.md
   - DRAC:
     - drac/index.md

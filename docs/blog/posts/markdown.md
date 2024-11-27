@@ -52,18 +52,27 @@ How:
  **Bold text** or __Bold text__
 ```
 
+==Highlight==
+
+How:
+```
+==Highlight==
+```
+
 ~~Strikethrough~~
+
 How:
 ```
 ~~Strikethrough~~
 ```
 
 > blockquote
->> blockquote
+>> nested blockquote
+
 How:
 ```
 > blockquote
->> blockquote
+>> nested blockquote
 ```
 
 <span style="color:red">Color</span>
@@ -81,6 +90,7 @@ How:
 ```
 [Link](http://www.google.com/)
 ```
+
 ## Code
 inline `code`
 multiple lines of ```codes```
@@ -95,23 +105,27 @@ How:
 
 ## List
 
-Unordered List
-- Bullet
-  - sub bullet
-    - Sub-sub bullet
-- Bullet
-  - sub bullet
-    - Sub-sub bullet
+Unordered List <br>
+<ul>
+  <li> Bullet
+    <ul>
+      <li>sub bullet</li>
+       <ul>
+          <li>sub sub bullet</li>
+       </ul>
+      <li>sub bullet</li>
+    </ul>
+  </li>
+</ul>
+
 
 How:
 ```
 Unordered List
 - Bullet
   - sub bullet
-    - Sub-sub bullet
-- Bullet
+    -  sub sub bullet
   - sub bullet
-    - Sub-sub bullet
 ```
 
 1. Numbered list

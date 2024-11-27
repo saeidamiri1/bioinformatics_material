@@ -8,8 +8,8 @@ authors:
 ---
 
 # `screen` session
-One very useful command allows you to push running terminal applications to the background and bring them back to the foreground when needed. 
-When a process is started with ‘screen’, the process can be detached from session & then can reattach the session at a later time. When the session is detached, the process that was originally started from the screen is still running and managed by the screen itself. The process can then re-attach the session at a later time, and the terminals are still there, the way it was left. It also supports split-screen displays and works over SSH connections, even after disconnecting and reconnecting!
+The `screen` session is a powerful command enables you to push running terminal applications to the background and bring them back to the foreground as needed. When using the `screen` command, processes can be detached from the session and reattached later. While the session is detached, the original process continues to run, managed by screen. When reattached, the session resumes with terminals intact, just as they were left. Additionally, screen supports split-screen displays and functions seamlessly over SSH connections, even after disconnection and reconnection.
+
 
 <!-- more -->
 

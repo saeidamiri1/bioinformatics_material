@@ -2,12 +2,12 @@
 date: 2024-10-27
 authors:
   - saeidamiri1
-description: bash cheat sheet
+description: bash cheat sheet I 
 categories:
   - linux
 ---
 
-# Bash cheat sheet
+# Bash cheat sheet I 
 Here are the bash scripts you frequently use to accomplish your tasks.
 
 <!-- more -->
@@ -53,6 +53,7 @@ To display system and hardware information, you can use `uname` command with var
 
 
 ## File and directory commands
+
 ### `pwd` command
 This command displays the current working directory. We often use it with the `-P` flag, which shows the physical directory without any symbolic links:
 
@@ -148,8 +149,10 @@ By using the following command, you can create a file and add content. Once youâ
 cat > file1.txt
 You care creating a file
 ```
+`>` is called  overwrite. 
 
 #### How view content
+
 View the content 
 ```
 cat  file1.txt file2.txt
@@ -162,6 +165,269 @@ If you have a large file that does not fit in the terminal, use `more` and  `les
 cat file.txt | more #show page by page
 cat file.txt | less #show line by line
 ```
+
+###  head and tail
+You can use the `head` command to print the first few lines of its input. The following example shows how to print the first 10 lines.
+
+```
+head -10  file.txt 
+```
+
+The `tail` command is the opposite of head and prints the last few lines of its input.
+
+```
+head -10  file.txt 
+```
+### `wc` command
+The `wc` command, which stands for 'word count,' has different flags: -l gives the number of lines, -w gives the number of words, and -m gives the number of characters. These flags can be combined to get all the information at once.
+
+```
+wc  -l  file.txt 
+```
+
+### `sort` command
+The `sort` command will sort it's input. By default it will sort alphabetically but there are many options available to modify the sorting mechanism. The following code sorts the file based on the second column.
+
+```
+sort -t' ' -k2,2 file
+```
+
+The flags used are: <br>
+<ul>
+  <li><code>-t</code>: specifies the delimiter (in this case, a space). </li>
+  <li><code>-k</code>: specifies the column for sorting. For example:
+    <ul>
+      <li><code>-k2</code>: means sorting based on the second column</li>
+      <li><code>-k1,3</code>: means sorting from column 1 through column 3.</li>
+      <li><code>-k1</code>: means sorting from column 1 through the end.</li>
+    </ul>
+  </li>
+</ul>
+
+
+### `echo` command
+It can be used to display the text or message,
+```
+echo "First message"
+```
+
+It has `-e` flag that enable interpretation of backslash escapes. In the below, `\n` make new line. 
+
+```
+echo -e "First message \n Second message "
+```
+You store the result in the a file 
+
+```
+echo -e "First message \n Second message " > out.txt
+cat out.txt
+```
+
+### Append vs overwrite  
+
+We know `>` can be used to create a new file, and by reruning it create a new file. 
+
+```
+echo -e "First message \n Second message " > out.txt
+cat out.txt
+echo -e "First message \n Second message " > out.txt
+cat out.txt
+```
+
+If you want to append, use `>>`
+
+```
+echo -e "First message \n Second message " > out.txt
+cat out.txt
+echo -e "First message \n Second message " >> out.txt
+cat out.txt
+```
+
+## Variable 
+Instead the file, you can store the value or message in a variable 
+```
+var1=Welcome
+var2=20
+```
+To call them just dollar sign before the variable name 
+
+```
+echo $var1
+echo $var2
+```
+
+You can call variable inside the `echo`
+```
+echo "$var1, I guess your age is $var2"
+```
+
+What we created are user variable, linux has many variables
+```
+echo $USER
+```
+
+here we had single wor, but if you assign comlex value, you need single quotes ( ' ) or double quotes ( " ). 
+
+```
+var3="Welcome to cheat sheet" 
+echo $var3
+```
+
+You use `declare -i`  to set the type integer, 
+```
+declare -i var4=20
+echo $var4
+
+declare -i var5=Welcome
+echo $var5
+```
+
+You define it as read only. 
+```
+declare -r var6="WEll"
+var6="WEll2"
+```
+To cancel use `+`
+```
+declare +r var6="WEll"
+var6="WEll2"
+```
+
+To determine the type of a variable
+```
+declare -p $var5
+```
+
+
+
+
+## bash Scripts
+Instead of running a series of Bash commands interactively, we often place them in a file with a `.sh` file extension. Typically, we include `#!/bin/bash` at the top of the file, indicating that `/bin/bash` should be used as the interpreter to execute the script. If you place your script in the `~/bin directory`, it will be executable, provided `~/bin` is included in your `$PATH`. To check if `~/bin` is in your `$PATH`, run `echo $PATH`. If it is not included, you can add it to your `~/.bash_profile.`
+
+
+```
+PATH=$PATH:$HOME/bin
+export PATH
+```
+
+`PATH` is an environment variable that contains a list of directories where executable programs are located. When you type a command in the command line, the system searches these directories, as defined by the PATH variable, to find the appropriate program interpreter. To make your script executable, run `chmod u+x file.sh` or `chmod 755 file.sh`.
+
+```
+> test.sh
+#!/bin/bash
+echo "WELCOME TO FIRST SHELL SCRIPT "
+ls
+echo "End of FIRST SHELL SCRIPT "
+
+```
+Then run 
+```
+bash test.sh
+```
+
+Users can modify the environment using the `set` command. By default, Bash does not handle errors automatically and leaves error handling up to the user. For example, the following commands will run without failing, even if an error occurs:
+
+```
+#!/bin/bash
+echo $TEMP
+echo Hello World
+```
+
+However, by adding `set -u`, Bash will treat the use of undefined variables as an error, causing the script to fail. For instance, if `$TEMP` is not defined, the script will exit with an error.
+
+```
+#!/bin/bash
+set -u
+echo $TEMP
+echo Hello World
+```
+
+The following is a list of set options that can be used to control error handling in Bash:
+
+
+| Set		|  Description |
+|----| ----|
+| `set -u`		| Exits script on undefined variables |
+| `set -x`		| Shows command currently executing |
+| `set -e`		| Exits script on error |
+| `set -eo pipefail`	| Exits script on pipeline fail |
+
+If you create a bash file, paset the following code in it and run it
+If you create a Bash script, paste the following code into it, and run it
+```
+#!/bin/bash
+myfunc | echo Hello World
+echo Hi
+```
+
+you get the following
+```
+Hello World
+aa.sh: line 2: myfunc: command not found
+Hi
+```
+
+Now, add `set -eo pipefail` to observe the difference
+
+```
+#!/bin/bash
+set -eo pipefail
+myfunc | echo Hello World
+echo Hi
+```
+
+```
+aa.sh: line 3: myfunc: command not found
+Hello World
+```
+
+### Comments
+A comment in a script is a note meant for reference and clarity, and it is not executed. To add a comment, simply use a hash symbol (#); everything following it on the same line will be treated as a comment. Comments can occupy an entire line or be placed at the end of a line of code.
+
+```
+# First comment
+echo "Welcome" # Second comment
+```
+
+
+### Command Subsitution
+You can store the result of a command in a variable by placing the command within backquotes (`) and assigning it to the variable.
+
+```
+myvars=`ls /etc`
+echo $myvars
+```
+
+You can also use `$()` to store the result of a command in a variable.
+
+```
+myvars=$(ls /etc)
+echo $myvars
+```
+
+### Statue 
+To check the result of the last executed command, use echo `$?`. If the output is 0, it means the command ran successfully.
+
+```
+> AAA
+bash: AAA: command not found
+> echo $?
+127
+> ls 
+> echo $?
+0 
+```
+
+It's important to note that even when an error is encountered, the script will continue running by default. To prevent this and stop execution on errors, use `set -e`.
+
+
+### Global and Local Environment Variables
+To view global environment variables, use the `env` command. To make environment variables persistent, add them to `~/.bashrc`. For example, to set a global variable `VAR="VALUE"`, open `.bashrc`  ( sudo nano ~/.bashrc) and add the line `export VAR="VALUE"`. To remove an environment variable, use the unset command. The following command deletes `MYVARIABLE`:
+
+
+```
+unset MYVARIABLE
+``` 
 
 ## File permissions
 You can define the access levels for files and folders to prevent people from accessing other usersâ€™ data without permission.
@@ -309,6 +575,38 @@ If you are looking for the path of command, use `whereis`,
 whereis python3
 ```
 
+## Wildcards
+Wildcards are special characters used to create patterns that match sets of files or directories. Here are the common wildcards:
+
+- `*`: Matches zero or more characters.
+- `?`: Matches a single character.
+- `[]`: Matches any character within the specified range.
+- `!`: Excludes characters inside the brackets.
+- `#`: Matches any single numeric character.
+
+
+Let see some useful example. 
+
+|example|descrition|
+|---|---|
+|d*|  any file that starts with the letter 'd'. |
+|*.txt| any file with the .txt extension |
+|??p*|  any file whose third letter is 'p'|
+|*.???|  any file with a three letter extension|
+| *# or *[0-9] |  any file that ends with a numeric character.|
+|[bd]* | any file whose name either begins with  'b' or 'd'|
+|*[0-9]* | any file whose name includes a digit in it |
+|[a-d]* | any file whose name either begins with  'a', 'b', 'c', or 'd'|
+|[!a-d]*  any file  which name does not start with 'a-d' |
+|[[a-zA-Z0-9]]* | any file which name  starts alphanumeric character|
+
+The following command will match any file with a name that contains an 'a' followed by zero or more characters, then a character that is not 'a', 'b', or 'c', and ending with the '.txt' extension.
+```
+ls a*[!abc].txt
+```
+
+
+
 ## Search pattern in File
 You can use `grep` command to search pattern in file. `grep pattern files`. The following  search for "hello" in the file.
 ```
@@ -320,7 +618,11 @@ If you want the command to be case-sensitive, use the `-i` flag.
 grep -i "hello" file.txt
 ```
 
-## `ps` command
+## `pwd` command
+It stands for 'print working directory' and is used to display the current working directory.
+
+## Process management
+### `ps` command
 The `ps` command displays information about a selection of active processes.
 ```
 ps
@@ -386,6 +688,8 @@ The `history` command displays a list of previously issued commands. There are a
 history -c # clears the entire command history.
 history -a # appends the current session's history to the history file.
 ```
+
+
 
 
 ## Useful references
