@@ -8,7 +8,7 @@ authors:
 ---
 
 # VEP
-To use the Ensembl Variant Effect Predictor (VEP)[https://useast.ensembl.org/info/docs/tools/vep/script/index.html] in Beluga, follow the steps outlined below:
+To use the Ensembl Variant Effect Predictor [VEP](https://useast.ensembl.org/info/docs/tools/vep/script/index.html) in Beluga, follow the steps outlined below:
 
 <!-- more -->
 
