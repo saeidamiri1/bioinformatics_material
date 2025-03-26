@@ -56,7 +56,7 @@ The following shows the shortcut and its action.
 
 | shortcut | action |
 |-|-|
-|Ctrl-a d | Detach from the screen session|
+|Ctrl-a Ctrl-d | Detach from the screen session|
 |Ctrl-a c| Create a new window inside the screen session|
 |Ctrl-a a |  Switch to the window that you were previously on|
 |Ctrl-a " | List all open windows. Double-quotes " are typed with the Shift key|

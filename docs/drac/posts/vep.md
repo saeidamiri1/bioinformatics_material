@@ -174,3 +174,9 @@ vep -i ${VCF} \
   -o ${OUTPUT}
 
 ```
+
+## Reference
+https://useast.ensembl.org/info/docs/tools/vep/script/index.html
+https://useast.ensembl.org/info/docs/tools/vep/script/vep_tutorial.html
+https://hpc.nih.gov/apps/VEP.html
+

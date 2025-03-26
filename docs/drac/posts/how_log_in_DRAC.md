@@ -20,7 +20,7 @@ microsoft. I used it as text editor and coding, I am pretty sure you will like. 
 ### connect to github
 To save your setting and have the extension from every where connect your editor to Github. 
 <video width="320" height="240" controls>
-  <source src="clip1.mp4" type="video/mp4">
+  <source src="./clip1.mp4" type="video/mp4">
 </video>
 
 ### Install
