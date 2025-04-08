@@ -1,5 +1,5 @@
 ---
-date: 2024-11-27
+date: 2025-04-07
 description: Hail
 categories:
   - Annotation
@@ -174,6 +174,28 @@ vep -i ${VCF} \
   -o ${OUTPUT}
 
 ```
+
+## How use individual plugin
+If you want to use an individual plug-in, visit the [Ensembl plug-in](https://useast.ensembl.org/info/docs/tools/vep/script/vep_plugins.html), download the desired plug-in, and add its path to your command. For example, to use CADD v1.7:
+
+
+```
+mkdir -p ~/scratch/CADD/GRCh38
+cd  ~/scratch/CADD/GRCh38
+wget https://krishna.gs.washington.edu/download/CADD/v1.7/GRCh38/whole_genome_SNVs.tsv.gz
+wget https://krishna.gs.washington.edu/download/CADD/v1.7/GRCh38/whole_genome_SNVs.tsv.gz.tbi
+wget https://krishna.gs.washington.edu/download/CADD/v1.7/GRCh38/gnomad.genomes.r4.0.indel.tsv.gz
+wget https://krishna.gs.washington.edu/download/CADD/v1.7/GRCh38/gnomad.genomes.r4.0.indel.tsv.gz.tbi
+```
+
+Redefind the path: 
+
+```
+CADD_SNV=~/scratch/CADD/GRCh38/whole_genome_SNVs.tsv.gz
+CADD_INDEL=~/scratch/CADD/GRCh38/gnomad.genomes.r4.0.indel.tsv.gz
+```
+
+Then run main vep command. 
 
 ## Reference
 https://useast.ensembl.org/info/docs/tools/vep/script/index.html
