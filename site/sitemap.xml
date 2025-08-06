@@ -2,292 +2,302 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/support/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/bioinfo/bioinfo_overview/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/2025/02/04/how-to-determine-reference-genome-used-for-alignment-in-bam-file/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/2025/02/04/does-the-bam-file-contain-all-the-necessary-information-to-regenerate-the-original-fastq-files/</loc>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/2024/10/27/bash-cheat-sheet-i/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/2024/10/27/bash-cheat-sheet-ii/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/2024/10/27/container/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/2024/10/27/how-drop-specific-columns/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/2024/10/27/how-remove-duplicated-lines/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/2024/10/27/how-remove-the-dupclicated-columns/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/2024/10/27/how-redirect-output-to-sed/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/2024/09/28/cheat-sheet-for-markdown/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/2024/10/27/passwordless-ssh/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/2024/10/27/screen-session/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/2024/10/27/simple-static-website/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/2024/10/27/tr-command/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/drac/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/drac/2024/11/16/managing-account-in-drac/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/drac/2024/10/27/login-issues/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/drac/2024/11/16/hail/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/drac/2024/10/28/how-i-work-with-hpc/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/drac/2024/03/26/how/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/drac/2024/03/26/how/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/saeidamiri1/bioinformatics_material/drac/2025/08/06/splitpipe/</loc>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/drac/2025/04/17/submitting-job/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/drac/2025/04/07/vep/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/stat/stat_overview/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/stat/linear_regression/mlr/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/stat/linear_regression/nlr/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/stat/linear_regression/others/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/stat/linear_regression/overview/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/stat/linear_regression/slr/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/stat/logistic_regression/ancova/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/stat/logistic_regression/introduction/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/stat/logistic_regression/multiple_covariate/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/stat/logistic_regression/one_covariate/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/stat/logistic_regression/overview/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/archive/2025/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/archive/2024/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/category/bioinfo/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/category/linux/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/category/awk/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/category/sort/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/category/sed/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/category/ssh/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/category/website/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/category/markdown/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/page/2/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/blog/archive/2024/page/2/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/drac/archive/2025/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/drac/archive/2024/</loc>
-         <lastmod>2025-06-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://github.com/saeidamiri1/bioinformatics_material/drac/category/drac/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/drac/category/annotation/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/saeidamiri1/bioinformatics_material/drac/category/drac/</loc>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/drac/category/hail/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/drac/category/ssh/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/drac/category/hpc/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/drac/category/installing-python-library/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/saeidamiri1/bioinformatics_material/drac/category/installing-r-library/</loc>
-         <lastmod>2025-06-12</lastmod>
+         <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

@@ -8,7 +8,7 @@ authors:
 ---
 
 # Split‑pipe
-split-pipe is a bioinformatics pipeline developed by [Parse Biosciences] used to process single-cell RNA sequencing data generated with their Split-Seq technology.
+`split-pipe` a bioinformatics pipeline developed by [Parse Biosciences] for processing single-cell RNA sequencing data generated using their Split-Seq technology. The pipeline takes raw FASTQ files and produces processed data in the form of a cell-by-gene count matrix, which can be used as input for popular open-source analysis tools such as Scanpy and Seurat. It enables streamlined and efficient processing of sequencing results from start to finish.
 
 <!-- more -->
 
